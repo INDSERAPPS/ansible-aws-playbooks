@@ -18,6 +18,7 @@
         Service: "tcspocmsansiblepoccai1svc"
       exact_count: "1"
       count_tag: "1"
+      image: ""
       wait: true
     register: ec2
     with_items: ec2_instances
