@@ -12,13 +12,14 @@
       ec2_secret_key: CmAVZ/898nuapdzpteH+kIY2nV1grNEjweIK1hI/
       keypair: tcs-poc-ms-ansible
       instance_type: t2.micro
-      security_group: ansible
       instance_tags:
         Name: tcspocmsansiblepoccai1
         Service: tcspocmsansiblepoccai1svc
       exact_count: 1
       count_tag: 1
       image: ami-ca0321aa
+      assign_public_ip: true
+      group: ansibleDeployedDefault
       wait: true
     register: ec2
     with_items: ec2_instances
