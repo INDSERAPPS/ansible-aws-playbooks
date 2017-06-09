@@ -10,7 +10,7 @@
       region: us-west-1
       ec2_access_key: AKIAIMW257B4DJVYH2ZA
       ec2_secret_key: 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
-      keypair: tcs-poc-ms-ansible
+      keypair: tcs.ms.poc
       instance_type: t2.micro
       instance_tags:
         Name: tcspocmsansiblepoccai1
