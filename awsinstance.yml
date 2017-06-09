@@ -15,7 +15,7 @@
       group: ""
       instance_type: "t2.micro"
       image: ""
-      instance_tags: "tcs-poc-ms-ansible-poc-ca-i1"
+      instance_tags: "tcspocmsansiblepoccai1"
       exact_count: "1"
       count_tag: "1"
       wait: true
