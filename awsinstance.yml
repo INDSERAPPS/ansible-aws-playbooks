@@ -7,7 +7,7 @@
   tasks:
   - name: launch instances
     ec2: 
-      region: "US West (N. California)"
+      region: us-west-1
       ec2_access_key: AKIAIMW257B4DJVYH2ZA
       ec2_secret_key: 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
       keypair: tcs.ms.poc
