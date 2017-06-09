@@ -2,7 +2,7 @@
 - name: Provision ec2 instances
   hosts: localhost
   connection: local
-  gather_facts: False
+  gather_facts: true
 
   tasks:
 
