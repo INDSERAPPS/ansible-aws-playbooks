@@ -18,8 +18,6 @@
       exact_count: 1
       count_tag: 1
       image: ansiblepocimage
-      ec2_tag_Name: ansible-poc-2
-      ec2_key_name: tcs-poc-ms-ansible
       wait: true
     register: ec2
     with_items: ec2_instances
