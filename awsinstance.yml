@@ -17,7 +17,6 @@
         Service: tcspocmsansiblepoccai1svc
       exact_count: 1
       count_tag: 1
-      vpc_id: vpc-57b6bd32
       image: ansiblepocimage
       tag_Name: ansible-poc-2
       key_name: tcs-poc-ms-ansible
