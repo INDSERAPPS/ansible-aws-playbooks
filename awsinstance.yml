@@ -1,12 +1,12 @@
 ---
 - name: Provision ec2 instances
-  hosts: localhost
+  hosts: all
   connection: local
   gather_facts: true
 
   tasks:
 
-  - name: Launch instances
+  - name: launch instances
     ec2: 
       region: "Canada (Central)"
       ec2_access_key: "AKIAIMW257B4DJVYH2ZA"
