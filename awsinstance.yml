@@ -12,7 +12,7 @@
       keypair: "tcs.ms.poc"
       group: "ansible2"
       instance_type: "t2.micro"
-      image: "ami-ca0321aa"
+      image: ""
       instance_tags: 
         name: "tcspocmsansiblepoccai1"
       exact_count: "1"
