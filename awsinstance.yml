@@ -9,10 +9,10 @@
       region: "us-west-1"
       ec2_access_key: "AKIAIMW257B4DJVYH2ZA"
       ec2_secret_key: "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"
-      keypair: "tcs.ms.poc"
+      keypair: "tcs-poc-ms-ansible"
       group: "ansible2"
       instance_type: "t2.micro"
-      image: ""
+      image: "ami-ca0321aa"
       instance_tags: 
         name: "tcspocmsansiblepoccai1"
       exact_count: "1"
