@@ -21,4 +21,3 @@
     register: ec2
     with_items: ec2_instances
   
-  gather_facts: true
