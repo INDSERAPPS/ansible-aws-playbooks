@@ -10,15 +10,15 @@
       ec2_access_key: "AKIAIMW257B4DJVYH2ZA"
       ec2_secret_key: "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"
       keypair: "tcs.ms.poc"
-      group: "ansible"
+      group: "ansible2"
       instance_type: "t2.micro"
       image: "ami-ca0321aa"
-      instance_tags: "tcspocmsansiblepoccai1"
+      instance_tags: 
+        name: "tcspocmsansiblepoccai1"
       exact_count: "1"
       count_tag: "1"
       wait: true
     register: ec2
     with_items: ec2_instances
-  
   
   gather_facts: true
